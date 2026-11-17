@@ -1,0 +1,16 @@
+variable,value,n,visit_diff_pp,ci_low_pp,ci_high_pp
+channel,Multichannel,5183,8.294,6.26,10.328
+channel,Phone,18567,7.56,6.615,8.506
+channel,Web,18863,7.556,6.525,8.587
+zip_code,Rural,6382,7.34,5.424,9.255
+zip_code,Surburban,19126,7.434,6.467,8.401
+zip_code,Urban,17105,7.964,6.942,8.986
+newbie,0,21232,7.783,6.772,8.795
+newbie,1,21381,7.531,6.676,8.385
+history_segment,1) $0 - $100,15336,6.855,5.836,7.874
+history_segment,2) $100 - $200,9527,6.911,5.585,8.237
+history_segment,3) $200 - $350,8134,8.44,6.824,10.056
+history_segment,4) $350 - $500,4221,8.92,6.544,11.296
+history_segment,5) $500 - $750,3249,9.895,7.397,12.393
+history_segment,"6) $750 - $1,000",1266,6.15,1.889,10.411
+history_segment,"7) $1,000 +",880,9.707,4.338,15.075

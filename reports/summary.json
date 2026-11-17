@@ -1,0 +1,121 @@
+{
+  "n_total": 64000,
+  "n_per_arm": {
+    "Womens E-Mail": 21387,
+    "Mens E-Mail": 21307,
+    "No E-Mail": 21306
+  },
+  "balance_max_abs_smd": 0.0086,
+  "balance_chi2_p": {
+    "zip_code": 0.579,
+    "channel": 0.458
+  },
+  "mens_vs_womens_visit": {
+    "p_treat": 0.18276,
+    "p_control": 0.1514,
+    "diff": 0.03136,
+    "rel_lift": 0.20711,
+    "ci_low": 0.02429,
+    "ci_high": 0.03843,
+    "z": 8.68456,
+    "p_value": 0.0
+  },
+  "mens_vs_womens_conversion": {
+    "p_treat": 0.01253,
+    "p_control": 0.00884,
+    "diff": 0.00369,
+    "rel_lift": 0.418,
+    "ci_low": 0.00174,
+    "ci_high": 0.00564,
+    "z": 3.71258,
+    "p_value": 0.00021
+  },
+  "mens_vs_womens_spend": {
+    "diff": 0.34541,
+    "ci_low": 0.03302,
+    "ci_high": 0.66492,
+    "p_value": 0.033
+  },
+  "bayesian_conversion": {
+    "Men's e-mail": {
+      "prob_treat_better": 1.0,
+      "expected_loss_if_ship": 0.0,
+      "diff_mean": 0.0068
+    },
+    "Women's e-mail": {
+      "prob_treat_better": 0.9999,
+      "expected_loss_if_ship": 0.0,
+      "diff_mean": 0.0031
+    },
+    "Men's vs women's": {
+      "prob_treat_better": 0.9999,
+      "expected_loss_if_ship": 0.0,
+      "diff_mean": 0.0037
+    }
+  },
+  "spend_men_vs_control": {
+    "simple_effect": 0.7698,
+    "simple_se": 0.1452,
+    "adjusted_effect": 0.7669,
+    "adjusted_se": 0.1451
+  },
+  "power": {
+    "baseline_conversion": 0.00573,
+    "n_per_arm": 21306,
+    "min_detectable_relative_lift_conversion": 0.389,
+    "n_needed_for_10pct_lift": 285959,
+    "n_needed_for_50pct_lift": 13473
+  },
+  "interaction_tests_p": {
+    "channel": 0.0994,
+    "zip_code": 0.0277,
+    "newbie": 0.0005,
+    "history_segment": 0.5252
+  },
+  "interaction_tests_p_holm": {
+    "channel": 0.1988,
+    "zip_code": 0.083,
+    "newbie": 0.0019,
+    "history_segment": 0.5252
+  },
+  "auuc_visit": {
+    "Uplift model (T-learner)": 3.84,
+    "Response model (likely visitors)": 21.05,
+    "Random": 20.13
+  },
+  "auuc_gap_uplift_minus_response_ci95": [
+    -85.61,
+    40.28
+  ],
+  "auuc_10_splits_mean_std": {
+    "GBM T-learner": [
+      13.92,
+      23.5
+    ],
+    "Logistic T-learner": [
+      19.7,
+      16.87
+    ],
+    "Response model": [
+      37.25,
+      25.72
+    ],
+    "Random": [
+      -1.75,
+      18.85
+    ]
+  },
+  "policy": {
+    "cost_per_email": 0.1,
+    "best_share_targeted": 1.0,
+    "profit_best": 12640.5,
+    "profit_email_everyone": 12640.5,
+    "profit_best_response_model_at_same_share": 12640.5,
+    "n_test": 17046
+  },
+  "peeking_simulation": {
+    "peeking": 0.1905,
+    "single_look": 0.0485,
+    "n_looks": 10
+  }
+}
